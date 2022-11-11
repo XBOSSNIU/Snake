@@ -717,7 +717,7 @@ public class Scene extends JFrame{
         System.out.println("Application starting...\t" + Util.getSysTime());
 
         Scene game = new Scene();
-        game.mapFile = "map//nowalls.txt";
+        game.mapFile = "map//trap.txt";
         game.gameMode = 1;
         game.loadGameMap(game.mapFile);//加载游戏地图
 
